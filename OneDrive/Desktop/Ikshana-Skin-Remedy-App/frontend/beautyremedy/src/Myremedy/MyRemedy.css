@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;  /* Ensures the page takes full height */
+}
+/* Container */
+.myremedy-container {
+    width: 90%;
+    margin-top: 50px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 28px;
+    color: #222;
+    margin-top: 100px;  /* Ensure no extra space from top */
+    margin-bottom: 20px;
+    text-align: center;  /* Center align the title */
+}
+
+
+/* Remedies Grid Layout */
+/* Remedies Grid Layout */
+.myremedy-grid {
+    display: flex;
+    justify-content: space-between;  /* Ensures the cards are spaced evenly */
+    gap: 10px;  /* Minimal gap between the cards */
+    padding: 20px;
+    flex-wrap: nowrap;  /* Prevents the cards from wrapping */
+}
+
+
+/* Remedy Card */
+.card {
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    width: 220px; /* Compact size */
+    text-align: center;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Remedy Image */
+.card-img-top {
+    width: 100%;
+    height: 130px; /* Adjusted image size */
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+/* Remedy Title */
+.card-title {
+    font-size: 16px;
+    color: #222;
+    margin: 10px 0;
+}
+
+/* Remedy Category */
+.card-text {
+    font-size: 13px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+/* Button Container */
+.button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 8px;
+}
+.card {
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    width: 220px; /* Compact size */
+    text-align: center;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s;
+    position: relative; /* Allows positioning inside the card */
+}
+
+.card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.add-remedy-btn {
+    margin-top: 15px; /* Add some space above */
+    width: 100%; /* Make the button span across the full width of the card */
+    background-color: #4CAF50; /* Pastel green background */
+    color: white;
+    font-size: 14px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.add-remedy-btn:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+
+/* Buttons - Default styling */
+/* Buttons - Default styling */
+.btn {
+    padding: 6px 10px;
+    font-size: 13px;
+    border: 1px solid #a8d5ba;  /* Pastel green border */
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #b0e0a8;  /* Pastel green background */
+    transition: background 0.2s ease-in-out, border-color 0.2s ease-in-out;
+}
+
+/* Hover Effect */
+.btn:hover {
+    background-color: #8cc9a4;  /* Slightly darker pastel green for hover */
+    border-color: #6ab79a;  /* Darker pastel green border on hover */
+}

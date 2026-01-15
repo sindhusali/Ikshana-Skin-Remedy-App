@@ -1,0 +1,84 @@
+/* Container for the entire page */
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f2f8f9; /* Light pastel background */
+    font-family: 'Arial', sans-serif;
+}
+
+/* Card that holds the login form */
+.auth-card {
+    background-color: #ffffff; /* White card */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Title of the login form */
+.auth-title {
+    font-size: 28px;
+    color: #3a3a3a; /* Darker text color */
+    margin-bottom: 10px;
+}
+
+/* Subtitle of the login form */
+.auth-subtitle {
+    font-size: 16px;
+    color: #a0a0a0; /* Light gray */
+    margin-bottom: 20px;
+}
+
+/* Error message styles */
+.error-message {
+    color: #f44336; /* Red for errors */
+    margin-bottom: 15px;
+}
+
+/* Form input styles */
+.auth-input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #dcdcdc; /* Light border */
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #fafafa; /* Soft background for inputs */
+}
+
+/* Button styles */
+.auth-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #66b3ff; /* Pastel blue */
+    color: #ffffff; /* White text */
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.auth-button:hover {
+    background-color: #4da3e0; /* Darker pastel blue */
+}
+
+/* Link text for Sign Up */
+.auth-text {
+    font-size: 14px;
+    margin-top: 15px;
+    color: #888888; /* Light gray text */
+}
+
+.auth-link {
+    color: #66b3ff; /* Pastel blue for link */
+    text-decoration: none;
+}
+
+.auth-link:hover {
+    text-decoration: underline;
+}
